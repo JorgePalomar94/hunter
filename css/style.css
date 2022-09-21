@@ -25,3 +25,51 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+.navigation-container {
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 30px;
+    height: 90px;
+
+}
+
+.mi-ul {
+    list-style: none;
+    column-gap: 15px;
+    padding: 0px;
+}
+
+.mi-ul li:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.fa-solid {
+    height: 18px;
+    width: 18px;
+}
+
+.second-menu {
+    column-gap: 20px;
+    align-items: center;
+}
+
+.country-logo {
+    height: 18px;
+    width: 18px;
+}
+
+.search {
+    outline: none;
+    border-width: 0px 0px .5px 0px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container .fa-solid {
+    position: absolute;
+    margin-left: -20px;
+}
