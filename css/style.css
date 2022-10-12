@@ -113,3 +113,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.button-parent a {
+    text-decoration: none;
+    border: thin solid black;
+    padding: 12px 32px;
+    margin: 0px 16px 16px 0px;
+    color: #0b0b0b;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+.button-parent {
+    justify-content: center;
+    margin-block: 10px;
+}
